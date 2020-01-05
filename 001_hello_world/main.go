@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-
+	//short declaration operator
+	//Declare a variable and Assign a Value at the same time
 	x := "Hello world!"
 
 	fmt.Println(x)
