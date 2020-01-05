@@ -14,8 +14,13 @@ func main() {
 			fmt.Println(i)
 		}
 	}
+	bar()
 }
 
 func foo() {
 	fmt.Println("I'm in foo")
+}
+
+func bar() {
+	fmt.Println("and then we exited")
 }
