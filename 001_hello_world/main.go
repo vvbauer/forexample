@@ -3,11 +3,16 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world!")
+
+	x := "Hello world!"
+
+	fmt.Println(x)
 
 	foo()
 
-	fmt.Println("something more")
+	x = "something more"
+
+	fmt.Println(x)
 
 	for i := 0; i < 100; i++ {
 		if i%2 == 0 {
